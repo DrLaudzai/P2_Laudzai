@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Surat Lamaran</title>
+    <title>Surat Lamaran | Laudzai Muaddab </title>
 
     <!-- CSS Vendor -->
     <link rel="stylesheet" href="../../../app-assets/css/bootstrap.min.css">
