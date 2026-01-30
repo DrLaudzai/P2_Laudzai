@@ -113,6 +113,49 @@
                 width: 100%;
             }
         }
+    @media print {
+
+    body {
+        margin: 0;
+        background: white;
+    }
+
+    /* SEMBUNYIKAN FORM */
+    .panel {
+        display: none !important;
+    }
+
+    /* HILANGKAN BACKGROUND PREVIEW */
+    .preview {
+        background: none !important;
+        padding: 0 !important;
+    }
+
+    /* RESET LAYOUT */
+    .wrapper,
+    .container-dua {
+        padding: 0;
+        margin: 0;
+        width: auto;
+        max-width: none;
+    }
+
+    /* KERTAS A4 */
+    .paper {
+        box-shadow: none !important;
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        padding: 30mm;
+        page-break-after: always;
+    }
+
+    @page {
+        size: A4;
+        margin: 0;
+    }
+}
+
     </style>
 </head>
 
@@ -172,7 +215,7 @@
                 <br><br>
                 <p>Hormat saya,</p>
                 <br><br>
-                <p><b>(Nama Lengkap)</b></p>
+                <p><b>(Laudzai Muaddab Budi)</b></p>
             </div>
         </div>
 
