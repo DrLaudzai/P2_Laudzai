@@ -99,7 +99,8 @@
         }
 
         .right {
-            text-align: right;
+            text-align: left;
+            
         }
 
         /* RESPONSIVE */
@@ -196,7 +197,8 @@
         <div class="preview">
             <div class="paper">
                 <h2>SURAT LAMARAN KERJA</h2>
-
+<br>
+<br>
                 <p class="right">
                     <span id="pv-kota">Kota</span>
                 </p>
