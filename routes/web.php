@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/login', function () {
-    return view('auth.login');
+    return view('pages.surat');
 })->name('login');
 
 Route::get('/register', function () {
@@ -15,5 +15,9 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard.index');
+    return view('pages.dashboard');
 })->name('dashboard');
+
+Route::get('/surat', function () {
+    return view('pages.surat');
+})->name('surat');
